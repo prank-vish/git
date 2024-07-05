@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    color:rgb(223, 96, 255);
+    
+}
+
+#ques{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(42, 36, 36);
+}
+
+#container{
+    text-align: center;
+}
+input{
+    display: none;
+    font-size: 3rem;
+    background-color: rgb(133, 208, 251);
+    margin: 40px 20px;
+    padding:5px 10px;
+    border-radius: 5px;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    transition: all 0.5 ease;
+}
+input:hover{
+    background-color: rgb(77, 187, 251);
+}
+
+#start{
+    font-size: 3rem;
+    background-color: rgb(223, 74, 29);
+    padding:5px 10px;
+    border-radius: 5px;
+    color: azure;
+    border: none;
+    transition:ease-in;
+    cursor:pointer;
+}
+
+#start:hover{
+    background-color: rgb(246, 92, 45);
+}
+
+#score{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(193, 142, 240);
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+body{
+    background-image: url("tajmed.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+
+}
+
+
+#counter{
+    width:100%;
+    height:400px;
+    
+}
